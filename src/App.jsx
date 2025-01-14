@@ -12,18 +12,18 @@ const myApp = (props) => {
             <h1>Fundamentos React</h1>
             <div className="Cards">
                 <Card
-                    titulo="#4 Desafio Aleatorio">
+                    titulo="#4 Desafio Aleatorio" color="#FA6900">
                     <Aleatorio
                         min={0}
                         max={10}>
                     </Aleatorio>
                 </Card>
                 <Card
-                    titulo="#3 Fragmento">
+                    titulo="#3 Fragmento" color="#E94C6F">
                     <Fragmento />
                 </Card>
                 <Card
-                    titulo="#2 Com parametro">
+                    titulo="#2 Com parametro" color="#E8B71A">
                     <ComParametro
                         titulo="Situação do aluno"
                         aluno="Pedro"
@@ -31,7 +31,7 @@ const myApp = (props) => {
                     </ComParametro>
                 </Card>
                 <Card
-                    titulo="#1 Primeiro">
+                    titulo="#1 Primeiro" color="#588C73">
                     <Primeiro />
                 </Card>
             </div>
