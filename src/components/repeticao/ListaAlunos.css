@@ -1,0 +1,15 @@
+table {
+    width:100%;
+}
+
+th {
+    background-color: #9f51e790;
+    border: 1px solid black;
+}
+
+.Par {
+    background-color: rgb(203, 203, 203);
+}
+.Impar {
+    background-color: rgb(159, 158, 158);
+}
