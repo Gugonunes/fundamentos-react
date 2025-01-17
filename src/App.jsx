@@ -20,7 +20,6 @@ const myApp = (props) => {
                 <Card
                     titulo="#9 Componente condicional" color="#239856">
                     <UsuarioInfo usuario={{nome: 'Gustavo'}}/>
-                    <UsuarioInfo usuario={{email: 'gu@test.com'}}/>
                 </Card>
                 <Card
                     titulo="#8 Condicional" color="#982395">
