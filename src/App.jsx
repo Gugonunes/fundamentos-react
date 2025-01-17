@@ -8,6 +8,7 @@ import Familia from './components/basicos/Familia'
 import FamiliaMembro from './components/basicos/FamiliaMembro'
 import ListaAlunos from './components/repeticao/ListaAlunos'
 import TabelaProdutos from './components/repeticao/TabelaProdutos'
+import ParOuImpar from './components/condicional/ParOuImpar'
 import './App.css'
 
 const myApp = (props) => {
@@ -15,6 +16,10 @@ const myApp = (props) => {
         <div className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
+                <Card
+                    titulo="#8 Condicional" color="#982395">
+                    <ParOuImpar numero={20}/>
+                </Card>
                 <Card
                     titulo="#7 Desafio lista produtos" color="#734cff">
                     <TabelaProdutos/>
