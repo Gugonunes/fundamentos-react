@@ -9,6 +9,7 @@ import FamiliaMembro from './components/basicos/FamiliaMembro'
 import ListaAlunos from './components/repeticao/ListaAlunos'
 import TabelaProdutos from './components/repeticao/TabelaProdutos'
 import ParOuImpar from './components/condicional/ParOuImpar'
+import UsuarioInfo from './components/condicional/UsuarioInfo'
 import './App.css'
 
 const myApp = (props) => {
@@ -16,6 +17,11 @@ const myApp = (props) => {
         <div className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
+                <Card
+                    titulo="#9 Componente condicional" color="#239856">
+                    <UsuarioInfo usuario={{nome: 'Gustavo'}}/>
+                    <UsuarioInfo usuario={{email: 'gu@test.com'}}/>
+                </Card>
                 <Card
                     titulo="#8 Condicional" color="#982395">
                     <ParOuImpar numero={20}/>
