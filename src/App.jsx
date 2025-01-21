@@ -10,6 +10,7 @@ import ListaAlunos from './components/repeticao/ListaAlunos'
 import TabelaProdutos from './components/repeticao/TabelaProdutos'
 import ParOuImpar from './components/condicional/ParOuImpar'
 import UsuarioInfo from './components/condicional/UsuarioInfo'
+import DiretaPai from './components/comunicacao/DiretaPai'
 import './App.css'
 
 const myApp = (props) => {
@@ -17,6 +18,10 @@ const myApp = (props) => {
         <div className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
+                <Card
+                    titulo="#10 Comunicação Direta" color="#59323C">
+                    <DiretaPai/>
+                </Card>
                 <Card
                     titulo="#9 Componente condicional" color="#239856">
                     <UsuarioInfo usuario={{nome: 'Gustavo'}}/>
